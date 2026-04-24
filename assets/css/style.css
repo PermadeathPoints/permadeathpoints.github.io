@@ -1,0 +1,317 @@
+/* ===== GLOBAL ===== */
+
+body {
+    margin: 0;
+    background-color: #0b0b0b;
+    background-image: radial-gradient(circle at 10% 10%, #130000, #080808 40%);
+    color: #e6e6e6;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Texture overlay */
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    opacity: 0.25;
+}
+
+/* ===== HEADER ===== */
+
+.site-header {
+    background: linear-gradient(to top, #300000, transparent);
+    border-bottom: 1px solid rgb(80, 0, 0);
+    box-shadow: 0 5px 20px rgba(48, 0, 0, 0.8);
+    text-align: center;
+}
+
+.site-header h1 {
+    margin: 0;
+    padding: 25px 0;
+    font-family: 'Cinzel', serif;
+    color: #c00000;
+    font-size: 2.7em;
+
+    text-shadow:
+        0 0 6px rgba(255, 0, 0, 0.4),
+        0 0 12px rgba(255, 0, 0, 0.2);
+}
+
+/* ===== CONTENU ===== */
+
+.content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+
+    /*
+    background: rgba(15, 15, 15, 0.85);
+    border: 1px solid #2a2a2a;
+    border-radius: 8px;
+
+    box-shadow:
+        0 0 30px rgba(0, 0, 0, 0.8),
+        0 0 10px rgba(139, 0, 0, 0.2);
+    */
+}
+
+/* ===== TYPOGRAPHIE ===== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Cinzel', serif;
+    color: #bd2424;
+    letter-spacing: 1px;
+}
+
+/* ===== H1 (titre principal) ===== */
+.content h1 {
+    position: relative;
+    font-size: 2.8em;
+    color: #d10000;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    text-shadow:
+        0 0 4px rgba(255, 0, 0, 0.5),
+        0 0 20px rgba(255, 0, 0, 0.2);
+}
+
+
+/* Ligne principale */
+.content h1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 1px;
+
+    background: linear-gradient(to right,
+            #8b0000,
+            #8b0000,
+            transparent);
+}
+
+/* ===== H2 (sections) ===== */
+.content h2 {
+    position: relative;
+    font-size: 1.8em;
+    color: #ffffff;
+
+    margin-top: 40px;
+    margin-bottom: 15px;
+
+    padding: 10px 15px;
+
+    background: linear-gradient(to right,
+            rgba(139, 0, 0, 0.5),
+            rgba(139, 0, 0, 0.25),
+            transparent);
+
+    border-left: 3px solid #880000;
+
+    text-shadow:
+        0 0 6px rgba(255, 0, 0, 0.4);
+}
+
+/* ===== H3 (sections) ===== */
+.content h3 {
+    font-size: 1.4em;
+    color: #b12121;
+
+    margin-top: 40px;
+    margin-bottom: 10px;
+
+    border-left: 3px solid #680e0e;
+    padding-left: 10px;
+}
+
+p {
+    line-height: 1.7;
+}
+
+/* Puce stylée */
+
+.content ul {
+    list-style: none;
+}
+
+.content ul li {
+    position: relative;
+    padding-left: 25px;
+    margin: 8px 0;
+
+    line-height: 1.6;
+}
+
+.content ul li::before {
+    content: "✦";
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    color: #ff3333;
+    text-shadow: 0 0 6px rgba(255, 0, 0, 0.5);
+}
+
+/* Code inline */
+code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.95em;
+
+    color: #ff6b6b;
+
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2px 6px;
+    border-radius: 4px;
+
+    border: 1px solid rgba(255, 0, 0, 0.2);
+}
+
+/* ===== SEPARATEURS ===== */
+
+hr {
+    border: none;
+    height: 1px;
+    margin: 40px 0;
+
+    background: linear-gradient(to right,
+            transparent,
+            #8b0000,
+            transparent);
+
+    box-shadow: 0 0 8px rgba(139, 0, 0, 0.6);
+}
+
+/* ===== TEXTE RICHE ===== */
+
+strong {
+    color: #ff4d4d;
+    text-shadow: 0 0 4px rgba(255, 0, 0, 0.3);
+}
+
+em {
+    color: #b38bff;
+}
+
+/* ===== LIENS ===== */
+
+a {
+    color: #8b0000;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ff3333;
+    text-shadow: 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+/* ===== GLITCH CHARS ===== */
+
+.glitch-chars {
+    display: inline;
+}
+
+.glitch-chars .corrupt {
+    color: #555;
+    display: inline-block;
+    animation: char-flicker 0.1s steps(1) infinite;
+}
+
+@keyframes char-flicker {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.3;
+    }
+}
+
+.content img.inline-icon {
+    display: inline;
+    height: 2em;
+    width: auto;
+    vertical-align: middle;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+.content img:not(.inline-icon) {
+    max-width: 100%;
+    border-radius: 6px;
+
+    display: block;
+    margin: 20px auto;
+
+    filter: drop-shadow(0 0 8px rgba(255, 0, 0, 0.3));
+
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+/* ===== IMAGE PAIRS ===== */
+
+.img-pair {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 16px;
+    margin: 20px -80px; /* dépasse du content */
+}
+
+.img-pair img {
+    height: auto;
+    max-height: 300px;
+    width: auto;
+    flex: 0 1 auto;
+    object-fit: contain;
+    border-radius: 6px;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    margin: 0; /* override le margin: auto du sélecteur général */
+    display: block;
+}
+
+.caption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #aaa;
+    font-style: italic;
+}
+
+/* ===== FOOTER ===== */
+
+.glitch-footer {
+    width: 100%;
+    margin-top: -17rem;
+    /* Fondu depuis transparent vers les blocs */
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 400%);
+    mask-image: linear-gradient(to bottom, transparent 0%, black 400%);
+    /* Léger flou en haut pour adoucir l'apparition */
+    position: relative;
+}
+
+.glitch-grid {
+    display: grid;
+    height: 400px;
+    width: 100%;
+    gap: 0px;
+    background: #000;
+    /* fond entre les cellules */
+}
+
+.glitch-cell {
+    background: #111;
+    transition: background 0.04s linear, opacity 10s linear;
+    will-change: background, transform;
+}

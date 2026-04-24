@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Permadeath</title>
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <!-- Polices -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Inter:wght@300;400;600&family=JetBrains+Mono&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <h1>Permadeath</h1>
+  </header>
+
+  <main class="content">
+    {{ content }}
+  </main>
+
+  <!-- Glitch footer -->
+  <footer class="glitch-footer" aria-hidden="true">
+    <div class="glitch-grid" id="glitchGrid"></div>
+  </footer>
+  
+  <script>
+    (function () {
+      const grid = document.getElementById('glitchGrid');
+
+      // ── RÉGLAGES ─────────────────────────────────────────
+      const SQUARE_SIZE = 40;   // taille d'un carré en px
+      const GAP = 0;    // espace entre les carrés en px
+      const FOOTER_H = 800;  // hauteur totale du footer en px
+      // ─────────────────────────────────────────────────────
+
+      const SHADES = ['#000000', '#111111', '#1a1a1a', '#222222'];
+
+      let cols, rows, cells = [];
+
+      function build() {
+        grid.innerHTML = '';
+        cells = [];
+        const w = grid.offsetWidth;
+        cols = Math.floor((w + GAP) / (SQUARE_SIZE + GAP));
+        rows = Math.floor((FOOTER_H + GAP) / (SQUARE_SIZE + GAP));
+
+        grid.style.gridTemplateColumns = 'repeat(' + cols + ', ' + SQUARE_SIZE + 'px)';
+        grid.style.gridTemplateRows = 'repeat(' + rows + ', ' + SQUARE_SIZE + 'px)';
+        grid.style.gap = GAP + 'px';
+        grid.style.height = (rows * (SQUARE_SIZE + GAP) - GAP) + 'px';
+
+        for (let i = 0; i < cols * rows; i++) {
+          const cell = document.createElement('div');
+          cell.className = 'glitch-cell';
+          cell.style.background = SHADES[Math.floor(Math.random() * SHADES.length)];
+          grid.appendChild(cell);
+          cells.push(cell);
+        }
+      }
+
+      function glitchStep() {
+        if (!cells.length) { setTimeout(glitchStep, 100); return; }
+
+        /* nombre de cellules à modifier par tick */
+        const count = Math.floor(Math.random() * 10) + 1;
+        for (let i = 0; i < count; i++) {
+          const idx = Math.floor(Math.random() * cells.length);
+          const cell = cells[idx];
+          cell.style.background = SHADES[Math.floor(Math.random() * SHADES.length)];
+          cell.style.opacity = Math.random() > 0.85 ? (0.3 + Math.random() * 0.4) : '1';
+
+        }
+
+        /* glitch d'une colonne entière */
+        if (rows > 1 && Math.random() > 0.93) {
+          const row = Math.floor(Math.random() * (rows - 1));
+          for (let c = 0; c < cols; c++) {
+            const cell = cells[row * cols + c];
+            if (cell) cell.style.background = SHADES[Math.floor(Math.random() * SHADES.length)];
+          }
+        }
+
+        setTimeout(glitchStep, 60 + Math.random() * 200);
+      }
+
+      build();
+      glitchStep();
+
+      let resizeTimer;
+      window.addEventListener('resize', function () {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(build, 150);
+      });
+    })();
+
+    /* ── Glitch chars (substitution de caractères, largeur fixe) ── */
+      (function () {
+        var CORRUPT_CHARS = '?#@$%&*!;:~^[]|/\\';
+        var OBFUSCATED_CHARS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^*[]{};<>?';
+
+        function initGlitchChars(el) {
+          var original = el.textContent.trim();
+          var isObfuscated = el.classList.contains('glitch-obfuscated');
+          el.innerHTML = '';
+          var spans = [];
+          var nonSpaceOriginal = [];
+
+          el.style.display = 'inline-flex';
+          el.style.alignItems = 'baseline';
+
+          original.split('').forEach(function (c) {
+            var s = document.createElement('span');
+            s.style.display = 'inline-block';
+            s.style.textAlign = 'center';
+            s.style.verticalAlign = 'baseline';
+            s.style.flexShrink = '0';
+            s.textContent = c;
+            if (c === ' ') {
+              s.style.width = '0.28em';
+            }
+            el.appendChild(s);
+            if (c !== ' ') {
+              nonSpaceOriginal.push(c);
+              spans.push(s);
+            }
+          });
+
+          requestAnimationFrame(function () {
+            requestAnimationFrame(function () {
+              spans.forEach(function (s) {
+                var w = s.getBoundingClientRect().width;
+                s.style.width = w + 'px';
+                s.style.minWidth = w + 'px';
+                s.style.maxWidth = w + 'px';
+              });
+              if (isObfuscated) {
+                stepObfuscated();
+              } else {
+                step();
+              }
+            });
+          });
+
+          // Mode normal : quelques caractères changent lentement
+          function step() {
+            var numCorrupt = Math.floor(Math.random() * 3) + 1;
+            spans.forEach(function (s, i) {
+              s.textContent = nonSpaceOriginal[i] || '';
+              s.classList.remove('corrupt');
+            });
+            var eligible = spans.slice();
+            for (var i = 0; i < numCorrupt && eligible.length; i++) {
+              var idx = Math.floor(Math.random() * eligible.length);
+              var s = eligible.splice(idx, 1)[0];
+              s.textContent = CORRUPT_CHARS[Math.floor(Math.random() * CORRUPT_CHARS.length)];
+              s.classList.add('corrupt');
+            }
+            setTimeout(step, 100 + Math.random() * 500);
+          }
+
+          // Mode obfuscated : tous les caractères changent en boucle rapide
+          function stepObfuscated() {
+            spans.forEach(function (s) {
+              s.textContent = OBFUSCATED_CHARS[Math.floor(Math.random() * OBFUSCATED_CHARS.length)];
+              s.classList.add('corrupt');
+            });
+            setTimeout(stepObfuscated, 50);
+          }
+        }
+
+        document.querySelectorAll('.glitch-chars, .glitch-obfuscated').forEach(initGlitchChars);
+      })();
+  </script>
+
+</body>
+
+</html>
