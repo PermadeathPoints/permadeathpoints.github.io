@@ -19,33 +19,23 @@ Chaque succès Minecraft fait gagner des points.<br>
 
 Le nombre total de points va changer certains aspects du jeu. Vous pouvez même regagner des vies !
 
-### Pacte des dieux
-À chaque paliers, des joueurs peuvent choisir de *faire le pacte*.<br>
-Il reçoivent un **malus** en échange de vies supplémentaires.<br>
-Les effets des pactes sont **cumulables**. Seul le pacte du palier en cours est disponible.<br>
-*Note:* les malus reçus sont **permanents** et il n'y aura **aucun** moyen de s'en débarrasser.<br>
-
-# Succès partagés
+### Succès partagés
 Certains succès ont leur **progression partagée**.<br>
 
 Dès que quelqu'un **progresse/complète** un succès partagé, toutes les personnes qui ont complété le succès qui précède **reçoit la complétion/progression** de ce succès.<br>
+Les **succès partagés** sont ceux commençant par une étoile rose.
 
-**Voici la liste des succès partagés:**
-### Combat
-- Monsters Hunted *(kill all hostile mobs)*
-- Stealth Is Optional *(kill warden)*
-- I Am Become Death *(kill EVERY mob)*
+### Pacte des dieux
+À chaque paliers, des joueurs peuvent choisir de *faire le pacte*.<br>
+Ils reçoivent un **malus** en échange de vies supplémentaires.<br>
+Les effets des pactes sont **cumulables**. Seul le pacte du palier en cours est disponible.<br>
+*Note:* les malus reçus sont **permanents** et il n'y aura **aucun** moyen de s'en débarrasser.<br>
 
-### Adventure
-- Adventuring Time *(explore all biomes)*
-- Smithing With Style *(use every smithing template)*
+### Pari du diable
+Tous les **100 points**, le diable propose un **défi** au serveur à réaliser en un **temps limité** (48-72h).<br>
+Si le défi est réussi, le serveur **remporte des vies**, si le temps est écoulé, le serveur **perd des vies**...<br>
+*La progression du défi est collective, mais les joueurs ayant trop de points ne font pas avancer l'objectif !*
 
-### Husbandry
-- Two By Two *(accoupler tous les animaux)*
-- Complete Catalogue *(apprivoiser toutes les variantes de chats)*
-- Whole Pack *(apprivoiser toutes les variantes de loups)*
-
-### Farming
-- Artificial Forest *(miner un stack de tous les types de leaves/bois/saplings)*
-
-<span class="glitch-chars">????????</span>
+# Difficultés
+## Palier 1 : 0 pts
+<span class="glitch-chars">Palier révélé le 19/06</span>
