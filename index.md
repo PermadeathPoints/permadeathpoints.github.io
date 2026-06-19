@@ -38,4 +38,29 @@ Si le défi est réussi, le serveur **remporte des vies**, si le temps est écou
 
 # Difficultés
 ## Palier 1 : 0 pts
-<span class="glitch-chars">Palier révélé le 19/06</span>
+**15 vies.**<br>
+**Difficulty:** Hard
+
+### Ajout de la Tempête
+Chaque mort apporte de l'**orage** qui dure `30pts/h` *(càd 10h de tempête si le serveur a 300points!)*<br>
+**Pendant la tempête:**
+- Les mobs spawnent **partout** à la surface.
+- **Impossible** de dormir.
+
+### Il va falloir faire des points!
+- Raids désactivés *Débloqué au prochain palier*
+- Netherite désactivée *Débloqué à <span class="glitch-chars">????</span> points*
+- Wither désactivé *Débloqué à <span class="glitch-chars">????</span> points*
+- End désactivé *Débloqué à <span class="glitch-chars">????</span> points*
+
+### Quelques buffs pour démarrer...
+- Dormir fait passer la nuit pour tout le monde.
+- Le drop d'XP est **boosté**. `(x1.5)`
+
+- **Multiplicateur de dégâts** : pour équilibrer le jeu, les mobs ont pitié de vous et infligent plus ou moins de dégâts en fonction de votre skill à Minecraft `(-35% à +5%)` <br> *(valeurs changeantes selon la progression)*
+
+- Des *Amethyst Golems* spawnent (très) rarement dans les cavernes, ils sont aggressifs et ont Speed I, Resistance I.<br>
+**Drop:** Totem of Undying (20%)
+
+## Palier 2 : 200 pts
+<span class="glitch-chars">Palier révélé à 100 points</span>
