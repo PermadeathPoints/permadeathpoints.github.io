@@ -64,6 +64,7 @@ Chaque mort apporte de l'**orage** qui dure `30pts/h` *(càd 10h de tempête si 
 
 ## Palier 2 : 200 pts
 **Palier atteint:** +1 vie<br>
+**Raids activés**<br>
 **Multiplicateur de dégâts** : les mobs infligent plus de dégâts aux joueurs en fonction de leur skill à Minecraft `(-30% à +10%)`
 
 ### Monstres enragés I
