@@ -63,4 +63,18 @@ Chaque mort apporte de l'**orage** qui dure `30pts/h` *(càd 10h de tempête si 
 **Drop:** Totem of Undying (20%)
 
 ## Palier 2 : 200 pts
-<span class="glitch-chars">Palier révélé à 100 points</span>
+**Palier atteint:** +1 vie<br>
+**Multiplicateur de dégâts** : les mobs infligent plus de dégâts aux joueurs en fonction de leur skill à Minecraft `(-30% à +10%)`
+
+### Monstres enragés I
+- **Les ghasts tirent des fireballs chargées** (puissance d'explosion : `1->3`)
+- Les sorcières **heal** les mobs autour d'elles.
+- Les mobs peuvent **détecter** un joueur de beaucoup plus loin.
+- Les mobs spawnés dans des **trial chambers** sont buffés: Resistance I, Force II, Speed II.
+- Les *Amethyst Golems* sont plus fréquents et ont maintenant: Resistance I, Force I, Speed I.<br>
+**Drop:** Totem of Undying (10%)
+
+### Pacte des dieux
+Les joueurs ayant plus de **40 points** ajoutent *10%* à leur propre multiplicateur de dégâts pour *1 vie* supplémentaires! *(1 vie chacun)*
+## Palier 3 : 300 pts
+<span class="glitch-chars">Palier révélé à 200 points</span>
