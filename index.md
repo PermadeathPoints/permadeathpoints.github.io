@@ -42,13 +42,13 @@ Si le défi est réussi, le serveur **remporte des vies**, si le temps est écou
 **Difficulty:** Hard
 
 ### Ajout de la Tempête
-Chaque mort apporte de l'**orage** qui dure `30pts/h` *(càd 10h de tempête si le serveur a 300points!)*<br>
+Chaque mort apporte de l'**orage** qui dure `30pts/h` *(càd 10h de tempête si le serveur a 300pts!)*<br>
 **Pendant la tempête:**
 - Les mobs spawnent **partout** à la surface.
 - **Impossible** de dormir.
 
 ### Il va falloir faire des points!
-- Raids désactivés *Débloqué au prochain palier*
+- Raids désactivés *Débloqué au palier 3*
 - Netherite désactivée *Débloqué à <span class="glitch-chars">????</span> points*
 - Wither désactivé *Débloqué à <span class="glitch-chars">????</span> points*
 - End désactivé *Débloqué à <span class="glitch-chars">????</span> points*
@@ -64,7 +64,6 @@ Chaque mort apporte de l'**orage** qui dure `30pts/h` *(càd 10h de tempête si 
 
 ## Palier 2 : 200 pts
 **Palier atteint:** +1 vie<br>
-**Raids activés**<br>
 **Multiplicateur de dégâts** : les mobs infligent plus de dégâts aux joueurs en fonction de leur skill à Minecraft `(-30% à +10%)`
 
 ### Monstres enragés I
@@ -77,5 +76,28 @@ Chaque mort apporte de l'**orage** qui dure `30pts/h` *(càd 10h de tempête si 
 
 ### Pacte des dieux
 Les joueurs ayant plus de **40 points** ajoutent *10%* à leur propre multiplicateur de dégâts pour *1 vie* supplémentaires! *(1 vie chacun)*
+
 ## Palier 3 : 300 pts
-<span class="glitch-chars">Palier révélé à 200 points</span>
+**Palier atteint:** +1 vie<br>
+### Raids activés (buffé)
+- Les **Ravagers, Pillagers, Vex, Vindicators** ont Speed I, Resistance I, Force I
+- Les **sorcières** dans les raids ont Resistance II, Speed I
+
+### Tempête buff
+Tous les mobs ont *Speed I, Resistance I, Force I* pendant la tempête.
+
+### Monstres enragés II
+- La vie des ghasts est multipliée par **4**.
+- Les **Squid & Glow Squid** ont **25%** de chance d'être remplacé par un **Guardian**.
+- Les **Spiders & Cave Spiders** reçoivent **1 à 3 effets aléatoires** parmi : <br>
+*Force III, Resistance II, Speed III, Regeneration IV, Invisibility, Glowing, Jump Boost V, Slow Falling*
+
+- Vous ne pouvez plus passer la nuit.
+
+- Les *Amethysts Golems* sont plus puissants: Resistance II, Speed II, Force II.
+
+### Pacte des dieux
+Les joueurs ayant plus de **70 points** peuvent échanger *4 slots de leur inventaire* contre *1 vie* supplémentaire ! *(1 vie chacun)*
+
+## Palier 4 : 400 pts
+<span class="glitch-chars">Palier révélé à 300 points</span>
