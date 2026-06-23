@@ -84,7 +84,8 @@ Les joueurs ayant plus de **40 points** ajoutent *10%* à leur propre multiplica
 - Les **sorcières** dans les raids ont Resistance II, Speed I
 
 ### Tempête buff
-Tous les mobs ont *Speed I, Resistance I, Force I* pendant la tempête.
+Tous les mobs ont *Speed I, Resistance I, Force I* pendant la tempête.<br>
+Changement du temps de tempête: `30->45 pts/h`
 
 ### Monstres enragés II
 - La vie des ghasts est multipliée par **4**.
