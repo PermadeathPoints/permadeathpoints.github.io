@@ -85,15 +85,16 @@ Les joueurs ayant plus de **40 points** ajoutent *10%* à leur propre multiplica
 
 ### Tempête
 Tous les mobs ont *Speed I, Resistance I, Force I* pendant la tempête.<br>
-Changement du temps de tempête: `30->60 pts/h`
+Changement du **temps de tempête**: `30->60 pts/h`
+
+### Insomnie
+Vous ne pouvez **plus passer la nuit**. Les phantoms sont **désactivés**, mais ils viendront quand même après un appel de *Goat Horn* pour pouvoir faire certains succès...
 
 ### Monstres enragés II
 - La vie des ghasts est multipliée par **4**.
-- Les **Squid & Glow Squid** ont **25%** de chance d'être remplacé par un **Guardian**.
+- Les **Squid & Glow Squid** ont **20%** de chance d'être remplacé par un **Guardian**.
 - Les **Spiders & Cave Spiders** reçoivent **1 à 3 effets aléatoires** parmi : <br>
-*Force III, Resistance II, Speed III, Regeneration IV, Invisibility, Glowing, Jump Boost V, Slow Falling*
-
-- Vous ne **pouvez plus passer la nuit**. Les **phantoms** ne spawnent plus, mais vous pouvez les invoquer avec une corne de chêvre.
+*Force III, Resistance II, Speed III, Regeneration IV, Invisibility, Glowing, Jump Boost V, Slow Falling*<br>
 
 - Les *Amethysts Golems* sont plus puissants: Resistance II, Speed II, Force II.
 
