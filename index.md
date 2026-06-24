@@ -102,4 +102,57 @@ Vous ne pouvez **plus passer la nuit**. Les phantoms sont **désactivés**, mais
 Les joueurs ayant plus de **70 points** peuvent échanger *4 slots de leur inventaire* contre *1 vie* supplémentaire ! *(1 vie chacun)*
 
 ## Palier 4 : 450 pts
-<span class="glitch-chars">Palier révélé à 300 points</span>
+**Palier atteint:** +2 vies
+### Wither activé (combat modifié...)
+- **Capacité 1: Stun** *(80%, 40%, 20% HP)* :
+
+> Aveugle et ralentit les joueurs proches.
+
+- **Capacité 2: Skelettes** *(65%, 30% HP)*:
+
+> Fait spawn 4 Wither Skelettes (vanilla) avec Speed I, Resistance I.
+
+- **Ultimate: Cataclysme** *(50% HP)*
+
+> Il se charge et crée une explosion qui fait beaucoup de dégâts. <br> *(il vaut mieux s'en éloigner...)*
+
+### Outils en Netherite activés
+
+- Craft de la **Netherite** modifié...
+
+<div class="image-block">
+  <img src="/assets/images/gui/craft_netherite.png" style="max-width: 70%;">
+  <p class="caption"><img src="/assets/images/items/perfect_gold_nugget.png" class="inline-icon"> Perfect Gold Nugget (10% drop des piglins)</p>
+</div>
+
+
+### Nouveau Mob: Infernal Riders
+Des **Pigmens spéciaux** apparaissent dans le nether et ont **5%** chance de drop une <img src="/assets/images/items/magic_apple.png" class="inline-icon"> **Magic Apple**.<br>
+Cette pomme permet de gagner *2 coeurs permanents*!<br>
+Attention, l'araignée à 4 effets de potions aléatoires...
+
+### Wither Skelettes on steroids
+Les **Wither Skelettes** sont divisés en **2 classes**:
+- *Une Archer:* Full Cuir, Arc Power 20, Knockback 5, Flame
+- *Une Corps à corps:* Full Fer, Épée en netherite (non droppable)<br>
+
+En échange, leur tête drop beaucoup plus souvent. *(12.5%)*
+
+### Monstres enragés III
+
+- **Les ghasts tirent des fireballs superchargées** (puissance d'explosion : `3->5`)
+
+- Les **Zombies** sont maintenant *Full Fer, Hache en fer* et ont *Speed II, Resistance I*.
+- Les **Skelettes** sont *Full Diams* et ont tous un arc *Power 4, Punch I*.
+
+- Les **Piglins, Pigmens & Hoglins** ont: *Resistance I, Speed I, Strength I*.
+- Les **Pigmens** sont tous **aggressifs**.
+
+- Les **Ravagers, Pillagers, Vex, Vindicators** ont Speed II, Resistance II, Force II
+- Les **sorcières** dans les raids ont Resistance III, Speed II
+
+### Pacte des dieux
+Les joueurs ayant plus de **100 points** peuvent échanger *3 coeurs* permanent contre *2 vies* supplémentaires ! *(2 vies chacun)*
+
+## Palier 5 : 600 pts
+<span class="glitch-chars">Palier révélé à 450 points</span>
