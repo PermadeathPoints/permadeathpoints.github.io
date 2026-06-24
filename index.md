@@ -83,9 +83,9 @@ Les joueurs ayant plus de **40 points** ajoutent *10%* à leur propre multiplica
 - Les **Ravagers, Pillagers, Vex, Vindicators** ont Speed I, Resistance I, Force I
 - Les **sorcières** dans les raids ont Resistance II, Speed I
 
-### Tempête buff
+### Tempête
 Tous les mobs ont *Speed I, Resistance I, Force I* pendant la tempête.<br>
-Changement du temps de tempête: `30->45 pts/h`
+Changement du temps de tempête: `30->60 pts/h`
 
 ### Monstres enragés II
 - La vie des ghasts est multipliée par **4**.
@@ -93,7 +93,7 @@ Changement du temps de tempête: `30->45 pts/h`
 - Les **Spiders & Cave Spiders** reçoivent **1 à 3 effets aléatoires** parmi : <br>
 *Force III, Resistance II, Speed III, Regeneration IV, Invisibility, Glowing, Jump Boost V, Slow Falling*
 
-- Vous ne pouvez plus passer la nuit.
+- Vous ne **pouvez plus passer la nuit**. Les **phantoms** ne spawnent plus, mais vous pouvez les invoquer avec une corne de chêvre.
 
 - Les *Amethysts Golems* sont plus puissants: Resistance II, Speed II, Force II.
 
