@@ -100,5 +100,5 @@ Changement du temps de tempête: `30->45 pts/h`
 ### Pacte des dieux
 Les joueurs ayant plus de **70 points** peuvent échanger *4 slots de leur inventaire* contre *1 vie* supplémentaire ! *(1 vie chacun)*
 
-## Palier 4 : 400 pts
+## Palier 4 : 450 pts
 <span class="glitch-chars">Palier révélé à 300 points</span>
