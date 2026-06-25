@@ -101,7 +101,7 @@ Vous ne pouvez **plus passer la nuit**. Les phantoms sont **désactivés**, mais
 ### Pacte des dieux
 Les joueurs ayant plus de **70 points** peuvent échanger *4 slots de leur inventaire* contre *1 vie* supplémentaire ! *(1 vie chacun)*
 
-## Palier 4 : 450 pts
+## Palier 4 : 500 pts
 **Palier atteint:** +2 vies
 ### Wither activé (combat modifié...)
 - **Capacité 1: Stun** *(80%, 40%, 20% HP)* :
@@ -145,7 +145,7 @@ En échange, leur tête drop beaucoup plus souvent. *(12.5%)*
 - Les **Zombies** sont maintenant *Full Fer, Hache en fer* et ont *Speed II, Resistance I*.
 - Les **Skelettes** sont *Full Diams* et ont tous un arc *Power 4, Punch I*.
 
-- Les **Piglins, Pigmens & Hoglins** ont: *Resistance I, Speed I, Strength I*.
+- Les **Piglins, Pigmens & Hoglins** ont: *Resistance I, Strength I*.
 - Les **Pigmens** sont tous **aggressifs**.
 
 - Les **Ravagers, Pillagers, Vex, Vindicators** ont Speed II, Resistance II, Force II
@@ -154,5 +154,5 @@ En échange, leur tête drop beaucoup plus souvent. *(12.5%)*
 ### Pacte des dieux
 Les joueurs ayant plus de **100 points** peuvent échanger *3 coeurs* permanent contre *2 vies* supplémentaires ! *(2 vies chacun)*
 
-## Palier 5 : 600 pts
-<span class="glitch-chars">Palier révélé à 450 points</span>
+## Palier 5 : 650 pts
+<span class="glitch-chars">Palier révélé à 500 points</span>
