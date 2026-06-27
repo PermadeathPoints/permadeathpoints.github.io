@@ -154,5 +154,5 @@ En échange, leur tête drop beaucoup plus souvent. *(12.5%)*
 ### Pacte des dieux
 Les joueurs ayant plus de **100 points** peuvent échanger *3 coeurs* permanent contre *2 vies* supplémentaires ! *(2 vies chacun)*
 
-## Palier 5 : 700 pts
+## Palier 5 : 800 pts
 <span class="glitch-chars">Palier révélé à 500 points</span>
