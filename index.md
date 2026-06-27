@@ -155,4 +155,33 @@ En échange, leur tête drop beaucoup plus souvent. *(12.5%)*
 Les joueurs ayant plus de **100 points** peuvent échanger *3 coeurs* permanent contre *2 vies* supplémentaires ! *(2 vies chacun)*
 
 ## Palier 5 : 800 pts
-<span class="glitch-chars">Palier révélé à 500 points</span>
+**Palier atteint:** +2 vies
+
+### Armure en netherite activée
+Vous pouvez maintenant la crafter **normalement**, il paraît qu'il se passe quelque chose lorsque vous la portez *entièrement*...
+
+### Amethyst Golems buffés
+- **Phase 1 (100-50% HP):** Resistance III,  Strengh III, Speed II
+- **Phase 2 (50-0% HP):** Resistance 0, Strengh III, envoie des rayons qui donnent blindness, immunisé aux flèches.
+
+> **Drop:** <img src="/assets/images/items/crystal.png" class="inline-icon"> *Amethyst Crystal* (10%), rajoute **une vie supplémentaire au serveur** (2 max global)
+
+### Nouveau Mob: Emperor Wither Skeleton
+- **1/50 chance** de spawn parmi ses congénères.
+- Full or avec une bannière sur la tête, Arc Flame, ***Power 50***, Punch V. Resistance II et Speed I. <br>40 Coeurs.
+
+> **Drop:** <img src="/assets/images/items/infernal_bow.png" class="inline-icon"> Power X (100%)
+
+### Monstres enragés IV
+- Les **Creepers** sont tous superchargés.
+- Les **Guardians** ont Force II, Resistance II, Speed II.
+- Les **Endermans** ont Force II, Resistance I.
+
+- Les monstres tués dans un *stronghold* font spawn **1 silverfish à leur mort**.
+- Les **Silverfishs** ont Invisibility & Glowing, Resistance II, Speed II, **Force IV** et ont 10 coeurs.
+
+### Pacte des dieux
+Les joueurs ayant plus de **150 points** peuvent échanger *4 slots de leur inventaire* contre *2 vies* supplémentaires ! *(2 vies chacun)*
+
+## Palier 6: 1200 pts
+<span class="glitch-chars">Palier révélé à 800 points</span>
