@@ -164,7 +164,7 @@ Vous pouvez maintenant la crafter **normalement**, il paraît qu'il se passe que
 - **Phase 1 (100-50% HP):** Resistance III,  Strengh III, Speed II
 - **Phase 2 (50-0% HP):** Resistance 0, Strengh III, envoie des rayons qui donnent blindness, immunisé aux flèches.
 
-> **Drop:** <img src="/assets/images/items/crystal.png" class="inline-icon"> *Amethyst Crystal* (10%), rajoute **une vie supplémentaire au serveur** (2 max global)
+> **Drop:** <img src="/assets/images/items/crystal.png" class="inline-icon"> *Amethyst Crystal* (5%), rajoute **une vie supplémentaire au serveur** (2 max global)
 
 ### Nouveau Mob: Emperor Wither Skeleton
 - **1/50 chance** de spawn parmi ses congénères.
